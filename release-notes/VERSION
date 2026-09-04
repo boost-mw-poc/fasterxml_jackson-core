@@ -22,6 +22,8 @@ JSON library.
 #1646: Non-blocking ByteBuffer parser `releaseBuffered()` can write
   already-consumed bytes
  (reported, fix by DongNyoung L)
+#1654: Stale symbol table child can replace a newer root table
+ (reported by DongNyoung L)
 #1664: UTF-8 byte-backed parsers report raw byte instead of decoded character
   for invalid root-value separator
  (reported, fix by DongNyoung L)
